@@ -78,7 +78,7 @@ package LeetCode.leetcode.editor.cn;
       public static int get(int index) {return MountainArray.get(index);}
       public static int length() {return MountainArray.length();}
   }
-       class Solution {
+       class Solution  {
            public int findInMountainArray(int target, MountainArray mountainArr) {
                if(mountainArr.length()<=2) return -1;
                //首先找出最大值，将数组分为升序和降序的两部分，利用二分查找分别查找target
