@@ -88,7 +88,7 @@ class Solution {
         return -1;
     }*/
    //官方题解
-   public int canCompleteCircuit(int[] gas, int[] cost) {
+   /*public int canCompleteCircuit(int[] gas, int[] cost) {
        int total_gas = 0;
        int cur_gas = 0;
        int target = 0;
@@ -103,6 +103,25 @@ class Solution {
 
        }
        return total_gas >=0?target:-1;
+   }*/
+   //优化
+   public int canCompleteCircuit(int[] gas, int[] cost) {
+       int len = gas.length;
+
+       for (int i = 0; i < len; i++) {
+           int j = i;
+           int cur_gas = gas[i];
+           while (cur_gas - cost[j]>=0){
+               cur_gas = cur_gas-cost[j]+gas[(j+1)%len];
+               j = (j+1)%len;
+               if (j==i){
+                   return j;
+               }
+           }
+           if (j<i)return -1;
+           i = j;
+       }
+       return -1;
    }
 
 }
