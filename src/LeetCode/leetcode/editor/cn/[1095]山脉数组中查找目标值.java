@@ -78,29 +78,29 @@ package LeetCode.leetcode.editor.cn;
       public static int get(int index) {return MountainArray.get(index);}
       public static int length() {return MountainArray.length();}
   }
-       class Solution  {
+       class Solution {
            public int findInMountainArray(int target, MountainArray mountainArr) {
-               if(mountainArr.length()<=2) return -1;
+               if(MountainArray.length()<=2) return -1;
                //首先找出最大值，将数组分为升序和降序的两部分，利用二分查找分别查找target
-               int pre = 0 ,last = mountainArr.length()-1;
+               int pre = 0 ,last = MountainArray.length()-1;
                while(pre+1<last){
                    int mid =(last+pre)/2;
-                   int midVal = mountainArr.get(mid);
-                   if(midVal>mountainArr.get(mid-1)){
+                   int midVal = MountainArray.get(mid);
+                   if(midVal> MountainArray.get(mid-1)){
                        pre = mid;
                    }else{
                        last = mid;
                    }
                }
-               int maxIndex = mountainArr.get(last)>mountainArr.get(pre)?last:pre;
+               int maxIndex = MountainArray.get(last)> MountainArray.get(pre)?last:pre;
                int index = binaryFind(target,mountainArr,0,maxIndex,true);
-               return index != -1?index:binaryFind(target,mountainArr,maxIndex+1,mountainArr.length()-1,false);
+               return index != -1?index:binaryFind(target,mountainArr,maxIndex+1, MountainArray.length()-1,false);
            }
            private int binaryFind(int target,MountainArray mountainArr,int pre,int last, boolean isPre){
 
                while(pre<=last){
                    int mid = (last+pre)/2;
-                   int midVal = mountainArr.get(mid);
+                   int midVal = MountainArray.get(mid);
                    if(target == midVal){
                        return mid;
                    }
