@@ -52,7 +52,7 @@ package LeetCode.leetcode.editor.cn;
       //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean canReach(int[] arr, int start) {
-
+     return false;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
