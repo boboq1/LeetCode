@@ -25,18 +25,20 @@
 
 package LeetCode.leetcode.editor.cn;
 
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-class LongestSubstringWithoutRepeatingCharacters{
-      public static void main(String[] args) {
-           Solution solution = new LongestSubstringWithoutRepeatingCharacters().new Solution();
-      }
-      //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int lengthOfLongestSubstring(String s) {
-        int i = 0,j = 0;
+class LongestSubstringWithoutRepeatingCharacters {
+    public static void main(String[] args) {
+        Solution solution = new LongestSubstringWithoutRepeatingCharacters().new Solution();
+    }
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int lengthOfLongestSubstring(String s) {
+       /* int i = 0,j = 0;
         int n = s.length();
         int ans = 0;
         Set<Character> set = new HashSet<> ();
@@ -48,9 +50,100 @@ class Solution {
                 set.remove(s.charAt(i++));
             }
         }
-        return ans;
+        return ans;*/
+            //暴力破解
+           /* int len = s.length();
+            if (len <= 1) return len;
+            int max = 0;
+            int res = 0;
+            int t = 0;
+            for (int i = 1; i < len; i++) {
+                for (int j = t; j < i; j++) {
+                    if (s.charAt(i) != s.charAt(j)) {
+                        res++;
+                        if (j + 1 == i) {
+                            max = Math.max(max, res + 1);
+                            res = 0;
+                        }
+                    } else {
+                        max = Math.max(max, res);
+                        res = 0;
+                        t = j + 1;
+                        if (j + 1 == i) {
+                            max =Math.max(max,res+1);
+                        }
+                    }
+                   if (j+1==i)res = 0;
+                }
+            }
+            return max;*/
+            //滑动窗口
+         /*   int len = s.length(), ans = 0;
+            Set<Character> set = new HashSet<> ();
+            int idl = -1;
+            for (int i = 0; i < len; i++) {
+                if (i != 0){
+                    set.remove(s.charAt(i-1));
+                }
+                while (idl + 1 < len && !set.contains(s.charAt(idl + 1))){
+                    set.add(s.charAt(idl + 1));
+                    ++idl;
+                }
+                ans = Math.max(ans,idl - i + 1);
+            }
+            return ans;*/
+           /* int n = s.length(), ans = 0;
+            Map<Character, Integer> map = new HashMap<>();
+            for (int end = 0, start = 0; end < n; end++) {
+                char alpha = s.charAt(end);
+                if (map.containsKey(alpha)) {
+                    start = Math.max(map.get(alpha), start);
+                }
+                ans = Math.max(ans, end - start + 1);
+                map.put(s.charAt(end), end + 1);
+            }
+            return ans;*/
+            /*int i = 0;
+            int flag = 0;
+            int length = 0;
+            int result = 0;
+            while (i < s.length()) {
+                int pos = s.indexOf(s.charAt(i),flag);
+                if (pos < i) {
+                    if (length > result) {
+                        result = length;
+                    }
+                    if (result >= s.length() - pos - 1) {
+                        return result;
+                    }
+                    length = i - pos - 1;
+                    flag = pos + 1;
+                }
+                length++;
+                i++;
+            }
+            return length;*/
+
+
+            int len = s.length();
+            int length = 0,res = 0;
+            int flag = 0;
+            int i = 0;
+            while (i < len){
+                int pos = s.indexOf(s.charAt(i),flag);
+                if (pos < i){
+                    if ((res = Math.max(res,length))>=s.length()-pos-1){
+                        return res;
+                    }
+                    flag = pos + 1;
+                    length = i - pos - 1;
+                }
+                length++;
+                ++i;
+            }
+            return length;
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}
