@@ -59,7 +59,7 @@ package LeetCode.leetcode.editor.cn;
       }
       //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public int mincostTickets(int[] days, int[] costs) {
+    /*public int mincostTickets(int[] days, int[] costs) {
         //递归调用
         int len = days.length;
         int maxDay = days[len - 1],minDay = days[0];
@@ -71,7 +71,29 @@ class Solution {
             }else dp[d] = dp[d+1];
         }
         return dp[minDay];
-    }
+    }*/
+   /* public int mincostTickets(int[] days, int[] costs) {
+        int len = days.length;
+        if (days == null || len == 0) return 0;
+        if (costs == null || costs.length == 0) return 0;
+        int[] dp = new int[days[len - 1] + 1];
+        dp[0] = 0;
+        for (int day : days) {
+            dp[day] = Integer.MAX_VALUE;
+        }
+        for (int i = 1; i <= days[len - 1]; i++) {
+            if (dp[i] == 0) {
+                dp[i] = dp[i - 1];
+                continue;
+            }else {
+                int n1 = dp[i-1] + costs[0];
+                int n2 = i >= 7 ? dp[i-7] + costs[1] : costs[1];
+                int n3 = i >= 30 ? dp[i - 30] + costs[2] : costs[2];
+                dp[i] = Math.min(n1,Math.min(n2,n3));
+            }
+        }
+        return dp[days[len - 1]];
+    }*/
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
