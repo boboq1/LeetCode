@@ -39,7 +39,6 @@ class Solution {
                     ans = Math.max(ans,prices[j]-prices[i]);
                 }else {
                     i = j;
-
                 }
                 j++;
         }
