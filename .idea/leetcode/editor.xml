@@ -131,6 +131,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/LeetCode/leetcode/editor/cn/[121]买卖股票的最佳时机.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/LeetCode/leetcode/editor/cn/[121]买卖股票的最佳时机.java" />
+              <option name="questionId" value="121" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/LeetCode/leetcode/editor/cn/[122]买卖股票的最佳时机 II.java">
           <value>
             <LeetcodeEditor>
@@ -160,6 +168,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/LeetCode/leetcode/editor/cn/[1306]跳跃游戏 III.java" />
               <option name="questionId" value="1428" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/LeetCode/leetcode/editor/cn/[134]加油站.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/LeetCode/leetcode/editor/cn/[134]加油站.java" />
+              <option name="questionId" value="134" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -224,6 +240,22 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/LeetCode/leetcode/editor/cn/[218]天际线问题.java" />
               <option name="questionId" value="218" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/LeetCode/leetcode/editor/cn/[21]合并两个有序链表.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/LeetCode/leetcode/editor/cn/[21]合并两个有序链表.java" />
+              <option name="questionId" value="21" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/LeetCode/leetcode/editor/cn/[221]最大正方形.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/LeetCode/leetcode/editor/cn/[221]最大正方形.java" />
+              <option name="questionId" value="221" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -347,6 +379,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/LeetCode/leetcode/editor/cn/[53]最大子序和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/LeetCode/leetcode/editor/cn/[53]最大子序和.java" />
+              <option name="questionId" value="53" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/LeetCode/leetcode/editor/cn/[542]01 矩阵.java">
           <value>
             <LeetcodeEditor>
@@ -400,6 +440,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/LeetCode/leetcode/editor/cn/[70]爬楼梯.java" />
               <option name="questionId" value="70" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/LeetCode/leetcode/editor/cn/[714]买卖股票的最佳时机含手续费.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/LeetCode/leetcode/editor/cn/[714]买卖股票的最佳时机含手续费.java" />
+              <option name="questionId" value="714" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -464,6 +512,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/LeetCode/leetcode/editor/cn/[938]二叉搜索树的范围和.java" />
               <option name="questionId" value="975" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/LeetCode/leetcode/editor/cn/[983]最低票价.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/LeetCode/leetcode/editor/cn/[983]最低票价.java" />
+              <option name="questionId" value="1025" />
             </LeetcodeEditor>
           </value>
         </entry>

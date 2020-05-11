@@ -28,16 +28,43 @@
 // Related Topics 数组 动态规划
 
 package LeetCode.leetcode.editor.cn;
-   class BestTimeToBuyAndSellStockIii{
-      public static void main(String[] args) {
-           Solution solution = new BestTimeToBuyAndSellStockIii().new Solution();
-      }
-      //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int maxProfit(int[] prices) {
 
+import java.util.Arrays;
+
+class BestTimeToBuyAndSellStockIii {
+    public static void main(String[] args) {
+        Solution solution = new BestTimeToBuyAndSellStockIii().new Solution();
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int maxProfit(int[] prices) {
+            int len = prices.length;
+            if (len <= 1) return 0;
+            int profit = 0;
+            int[] allProfit = new int[len];
+            int pre = 0;
+            int last = 0;
+            int ans = 0;
+            int temp = prices[0];
+            for (int i = 0; i < len; ++i) {
+                int first = 0;
+
+                for (int j = 0; j < i; ) {
+                    if (temp < prices[j]){
+                        first += prices[j] - temp;
+                        temp = prices[j];
+                    }
+                }
+                first = 0;
+                for (int k = i; k < len; k++) {
+
+                }
+                ans = Math.max(ans,pre + last);
+            }
+            return profit;
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}
