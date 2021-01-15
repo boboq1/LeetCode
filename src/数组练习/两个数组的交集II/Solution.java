@@ -1,12 +1,10 @@
 package 数组练习.两个数组的交集II;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class Solution {
 
-    public int[] intersect(int[] nums1, int[] nums2) {
+   /* public int[] intersect(int[] nums1, int[] nums2) {
         if (nums1 == null || nums2 == null)return null;
         Arrays.sort(nums1);
         Arrays.sort(nums2);
@@ -40,6 +38,41 @@ public class Solution {
         for (int i : array) {
             System.out.println(i);
         }
-    }
+    }*/
+   public int[] intersect(int[] nums1, int[] nums2) {
+       if (nums1 == null || nums2 == null) return null;
+       int length1 = nums1.length;
+       int length2 = nums2.length;
+       int[] nums3 = {};
+       if (length1 == 0 || length2 == 0) return nums3;
+       Map<Integer,Integer> map = new HashMap<>();
+       nums3 = new int[length1]; //改进后
+       int index = 0;
+       for (int num : nums1) {
+           if (map.keySet().contains(num)){
+               int count = map.getOrDefault(num,0) + 1;
+               map.put(num,count);
+           }
+           else {
+               map.put(num,1);
+           }
+       }
+//       ArrayList<Integer> list = new ArrayList<>();//改进前
+       for (int i = 0; i < length2; i++) {
+           if (map.keySet().contains(nums2[i]) && map.get(nums2[i]) > 0){
+               int count = map.get(nums2[i]) - 1;
+               map.put(nums2[i],count);
+//               list.add(nums2[i]);
+               nums3[index++] = nums2[i];
+           }
+       }
+
+       //改进前
+     /*  nums3 = new int[list.size()];
+       for (int i = 0; i < nums3.length; i++) {
+           nums3[i] = list.get(i);
+       }*/
+       return Arrays.copyOfRange(nums3,0,index);
+   }
 
 }
