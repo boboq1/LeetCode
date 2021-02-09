@@ -37,7 +37,7 @@ class Solution {
         }
     }*/
     //迭代：栈实现
-    public List<Integer> preorderTraversal(TreeNode root) {
+   /* public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         Deque<TreeNode> stack = new ArrayDeque<>();
         TreeNode node = root;
@@ -51,5 +51,31 @@ class Solution {
             node = node.right;
         }
         return result;
-    }
+    }*/
+    //Morris方法
+      public List<Integer> preorderTraversal(TreeNode root) {
+          List<Integer> res = new ArrayList<>();
+          TreeNode p1 = root,p2 = null;
+          while (p1 != null) {
+              p2 = p1.left;
+              if (p2 != null) {
+                  while (p2.right != null && p2.right != p1) {
+                      p2 = p2.right;
+                  }
+                  if (p2.right == null) {
+                      res.add(p1.val);
+                      p2.right = p1;
+                      p1 = p1.left;
+                      continue;
+                  } else {
+                      p2.right = null;
+                  }
+              } else {
+                  res.add(p1.val);
+              }
+              p1 = p1.right;
+          }
+          return res;
+      }
+
 }
