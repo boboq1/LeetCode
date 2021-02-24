@@ -24,8 +24,8 @@ public class LifeCycle {
     }
 
     public static String getStaticField() {
-        String statiFiled = "Static Field Initial";
-        return statiFiled;
+        String staticFiled = "Static Field Initial";
+        return staticFiled;
     }
 
     public static String getField() {

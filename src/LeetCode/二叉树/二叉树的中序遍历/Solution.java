@@ -1,6 +1,4 @@
-package LeetCode.树.二叉树的中序遍历;
-
-import sun.reflect.generics.tree.Tree;
+package LeetCode.二叉树.二叉树的中序遍历;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

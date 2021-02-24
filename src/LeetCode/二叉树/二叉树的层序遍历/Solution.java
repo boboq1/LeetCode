@@ -1,4 +1,4 @@
-package LeetCode.树.二叉树的层序遍历;
+package LeetCode.二叉树.二叉树的层序遍历;
 
 /**
  * @Author: hcb

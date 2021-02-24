@@ -1,4 +1,4 @@
-package LeetCode.树.二叉树的后序遍历;
+package LeetCode.二叉树.二叉树的后序遍历;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
