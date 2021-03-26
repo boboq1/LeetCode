@@ -13,36 +13,36 @@ import java.util.Set;
 public class Solution {
     public int openLock(String[] deadends, String target) {
         Queue<String> queue = new LinkedList<>();
-        queue.add("0000");
-        queue.add(null);
-        Set<String> seen = new HashSet<>();
-        seen.add("0000");
         Set<String> dead = new HashSet<>();
         for (String deadend : deadends) {
             dead.add(deadend);
         }
-        int nums = 0;
-        while (!queue.isEmpty()) {
-            String str = queue.poll();
-            if (str == null) {
-                nums++;
-                if (queue.peek() != null) {
-                    queue.add(null);
-                }
-            } else if (str.equals(target)) {
-                return nums;
-            } else if (!dead.contains(str)){
-                for (int i = 0; i < 4; i++) {
-                    for (int d = -1;d < 2;d += 2) {
-                        Integer y = (str.charAt(i) - '0' + d + 10) % 10;
-                        String newstr = str.substring(0,i) + ("" + y) + str.substring(i + 1);
-                        if (!seen.contains(newstr)) {
-                            seen.add(newstr);
-                            queue.offer(newstr);
-                        }
-                    }
-                }
-            }
+        queue.add("0000");
+        queue.add(null);
+        Set<String> seen = new HashSet<>();
+        seen.add("0000");
+        int res = 0;
+        while (queue.size() != 0) {
+           String node = queue.poll();
+           if (node == null) {
+               res++;
+               if (queue.peek() != null) {
+                   queue.add(null);
+               }
+           } else if (node.equals(target)) {
+               return res;
+           } else if (!dead.contains(node)) {
+               for (int i = 0; i < 4; i++) {
+                   for (int d = -1;d < 2;d += 2) {
+                       Integer y = (node.charAt(i) - '0' + d + 10) % 10;
+                       String temp = node.substring(0,i) + ("" + y) + node.substring(i + 1);
+                       if (!seen.contains(temp)){
+                           seen.add(temp);
+                           queue.offer(temp);
+                       }
+                   }
+               }
+           }
         }
         return -1;
     }

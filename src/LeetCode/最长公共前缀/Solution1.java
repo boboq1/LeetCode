@@ -20,4 +20,10 @@ public class Solution1 {
 
         return str;
     }
+
+    public static void main(String[] args) {
+        Solution1 s = new Solution1();
+        String[]strs = {"abcde","a","abc"};
+        System.out.println(s.longestCommonPrefix(strs));
+    }
 }

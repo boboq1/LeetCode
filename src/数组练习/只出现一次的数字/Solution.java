@@ -26,6 +26,8 @@ public class Solution {
        for (int num : nums) {
            singleNumber ^= num;
        }
+       String str = "";
+       Set<Integer> set = new HashSet<>();
        return singleNumber;
    }
 }
