@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca75556c-6316-41ff-a786-9eb6b52936b3" name="Default Changelist" comment="完全平方数-3.26" />
+    <list default="true" id="ca75556c-6316-41ff-a786-9eb6b52936b3" name="Default Changelist" comment="测试-3.26" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +185,7 @@
       <workItem from="1615808115220" duration="1267000" />
       <workItem from="1616719620192" duration="640000" />
       <workItem from="1616765716558" duration="1561000" />
-      <workItem from="1616767301057" duration="325000" />
+      <workItem from="1616767301057" duration="1027000" />
     </task>
     <task id="LOCAL-00001" summary="数组+双指针">
       <created>1609946480773</created>
@@ -474,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616767612736</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="测试-3.26">
+      <created>1616769846276</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1616769846276</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +500,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数组拆分2.5" />
     <MESSAGE value="翻转字符串2.5" />
     <MESSAGE value="移除元素-双指针2.5" />
     <MESSAGE value="最大连续1的个数-双指针2.5" />
@@ -518,7 +524,8 @@
     <MESSAGE value="打开转盘锁-2.24" />
     <MESSAGE value="完全平方数-2.24" />
     <MESSAGE value="完全平方数-3.26" />
-    <option name="LAST_COMMIT_MESSAGE" value="完全平方数-3.26" />
+    <MESSAGE value="测试-3.26" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试-3.26" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
