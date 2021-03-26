@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca75556c-6316-41ff-a786-9eb6b52936b3" name="Default Changelist" comment="完全平方数-2.24">
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/单调栈/接雨水/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/最长公共子序列/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/栈/最小栈/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/栈/有效的括号/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/栈/每日温度/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/打开转盘锁/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/打开转盘锁/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/最长公共前缀/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/最长公共前缀/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/最长公共前缀/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/最长公共前缀/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数组练习/只出现一次的数字/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数组练习/只出现一次的数字/Solution.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/boboq1/LeetCode" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mhB8ipb9Z8IHr5IM1BH4rOkse0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager" selected="Application.Solution1">
+    <configuration name="Codec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.二叉树.二叉树的序列化与反序列化.Codec" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.二叉树.二叉树的序列化与反序列化.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.二叉树.从中序与后序遍历序列构造二叉树.Solution" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.二叉树.从中序与后序遍历序列构造二叉树.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.完全平方数1.Solution" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.完全平方数1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.栈.有效的括号.Solution" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.栈.有效的括号.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.最长公共前缀.Solution1" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.最长公共前缀.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Solution1" />
+        <item itemvalue="Application.Solution (4)" />
+        <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Codec" />
+        <item itemvalue="Application.Solution (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\hcb\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca75556c-6316-41ff-a786-9eb6b52936b3" name="Default Changelist" comment="" />
+      <created>1609935786017</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609935786017</updated>
+      <workItem from="1609935787612" duration="109000" />
+      <workItem from="1609935912765" duration="5842000" />
+      <workItem from="1610096054315" duration="3090000" />
+      <workItem from="1610284595749" duration="597000" />
+      <workItem from="1610440310752" duration="5287000" />
+      <workItem from="1610499048406" duration="6799000" />
+      <workItem from="1610593086385" duration="1846000" />
+      <workItem from="1610691517036" duration="11523000" />
+      <workItem from="1610843231494" duration="1508000" />
+      <workItem from="1610929468897" duration="9553000" />
+      <workItem from="1611018443907" duration="6360000" />
+      <workItem from="1611194504776" duration="11686000" />
+      <workItem from="1611299984543" duration="594000" />
+      <workItem from="1611301853342" duration="498000" />
+      <workItem from="1611302370383" duration="1204000" />
+      <workItem from="1611359983279" duration="9301000" />
+      <workItem from="1611539482599" duration="16950000" />
+      <workItem from="1611630391800" duration="594000" />
+      <workItem from="1611631426541" duration="595000" />
+      <workItem from="1611710173524" duration="19239000" />
+      <workItem from="1611795129628" duration="11785000" />
+      <workItem from="1611907713829" duration="3669000" />
+      <workItem from="1611980001301" duration="82341000" />
+      <workItem from="1612778218492" duration="12911000" />
+      <workItem from="1612879255821" duration="19486000" />
+      <workItem from="1613097301230" duration="30034000" />
+      <workItem from="1613540946444" duration="8031000" />
+      <workItem from="1613825047270" duration="4720000" />
+      <workItem from="1614166138189" duration="19895000" />
+      <workItem from="1614386182803" duration="354000" />
+      <workItem from="1614499452069" duration="775000" />
+      <workItem from="1614575525444" duration="5013000" />
+      <workItem from="1614757324195" duration="5728000" />
+      <workItem from="1615808115220" duration="1267000" />
+      <workItem from="1616719620192" duration="640000" />
+      <workItem from="1616765716558" duration="1561000" />
+    </task>
+    <task id="LOCAL-00001" summary="数组+双指针">
+      <created>1609946480773</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609946480773</updated>
+    </task>
+    <task id="LOCAL-00002" summary="数组+贪心算法">
+      <created>1609947629315</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609947629315</updated>
+    </task>
+    <task id="LOCAL-00003" summary="数组+1.13">
+      <created>1610504440782</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610504440782</updated>
+    </task>
+    <task id="LOCAL-00004" summary="数组+指针">
+      <created>1610700548216</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610700548216</updated>
+    </task>
+    <task id="LOCAL-00005" summary="数组+指针/哈希表">
+      <created>1610702537114</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610702537114</updated>
+    </task>
+    <task id="LOCAL-00006" summary="更新1.22">
+      <created>1611295894555</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611295894555</updated>
+    </task>
+    <task id="LOCAL-00007" summary="更新1.22">
+      <created>1611730795351</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611730795351</updated>
+    </task>
+    <task id="LOCAL-00008" summary="寻找中心数组1.27">
+      <created>1611730902298</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611730902298</updated>
+    </task>
+    <task id="LOCAL-00009" summary="合并区间1.27">
+      <created>1611732639505</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611732639505</updated>
+    </task>
+    <task id="LOCAL-00010" summary="旋转矩阵1.27">
+      <created>1611797999081</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611797999081</updated>
+    </task>
+    <task id="LOCAL-00011" summary="零矩阵1.28">
+      <created>1611798891976</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611798891976</updated>
+    </task>
+    <task id="LOCAL-00012" summary="对角线1.29">
+      <created>1611893797183</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1611893797183</updated>
+    </task>
+    <task id="LOCAL-00013" summary="反转字符串中的单词2.2">
+      <created>1612236252158</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1612236252158</updated>
+    </task>
+    <task id="LOCAL-00014" summary="实现strStr()的失败案例和三种答案方法2.3">
+      <created>1612343094009</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1612343094009</updated>
+    </task>
+    <task id="LOCAL-00015" summary="数组拆分2.5">
+      <created>1612504403888</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1612504403888</updated>
+    </task>
+    <task id="LOCAL-00016" summary="翻转字符串2.5">
+      <created>1612504665330</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1612504665330</updated>
+    </task>
+    <task id="LOCAL-00017" summary="移除元素-双指针2.5">
+      <created>1612514578914</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1612514578914</updated>
+    </task>
+    <task id="LOCAL-00018" summary="最大连续1的个数-双指针2.5">
+      <created>1612516389575</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1612516389575</updated>
+    </task>
+    <task id="LOCAL-00019" summary="长度最小的子数组-双指针2.5">
+      <created>1612578800634</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1612578800634</updated>
+    </task>
+    <task id="LOCAL-00020" summary="杨辉三角-2.6">
+      <created>1612583888500</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1612583888500</updated>
+    </task>
+    <task id="LOCAL-00021" summary="反转数组III-2.6">
+      <created>1612661268551</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1612661268551</updated>
+    </task>
+    <task id="LOCAL-00022" summary="寻找旋转排序数组中的最小值-二分查找2.7">
+      <created>1612664875796</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1612664875796</updated>
+    </task>
+    <task id="LOCAL-00023" summary="删除排序数组中的重复项-双指针2.7">
+      <created>1612667134538</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1612667134538</updated>
+    </task>
+    <task id="LOCAL-00024" summary="移动零-双指针2.7">
+      <created>1612668272437</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1612668272437</updated>
+    </task>
+    <task id="LOCAL-00025" summary="两数之和II输入有序数组-三种方法2.5">
+      <created>1612691915274</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1612691915274</updated>
+    </task>
+    <task id="LOCAL-00026" summary="设计循环队列-数组和node节点2.8">
+      <created>1612782392686</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1612782392686</updated>
+    </task>
+    <task id="LOCAL-00027" summary="队列实现2.7">
+      <created>1612782499848</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1612782499848</updated>
+    </task>
+    <task id="LOCAL-00028" summary="树的遍历-2.8">
+      <created>1612792383357</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1612792383357</updated>
+    </task>
+    <task id="LOCAL-00029" summary="树的遍历-添加Morris方法2.9">
+      <created>1612884628858</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1612884628858</updated>
+    </task>
+    <task id="LOCAL-00030" summary="二叉树的最大深度-.9">
+      <created>1612925707451</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1612925707451</updated>
+    </task>
+    <task id="LOCAL-00031" summary="对称二叉树-2.10">
+      <created>1612925752107</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1612925752107</updated>
+    </task>
+    <task id="LOCAL-00032" summary="路径总和-2.10">
+      <created>1612958907464</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1612958907464</updated>
+    </task>
+    <task id="LOCAL-00033" summary="二叉树-2.14">
+      <created>1613300513888</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1613300513888</updated>
+    </task>
+    <task id="LOCAL-00034" summary="岛屿数量-2.16">
+      <created>1613825105692</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1613825105693</updated>
+    </task>
+    <task id="LOCAL-00035" summary="完全平方数-2.24">
+      <created>1614166172566</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1614166172566</updated>
+    </task>
+    <task id="LOCAL-00036" summary="统一提交-2.24">
+      <created>1614166223626</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1614166223626</updated>
+    </task>
+    <task id="LOCAL-00037" summary="补充或修改-2.24">
+      <created>1614166269323</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1614166269323</updated>
+    </task>
+    <task id="LOCAL-00038" summary="打开转盘锁-2.24">
+      <created>1614212323196</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1614212323196</updated>
+    </task>
+    <task id="LOCAL-00039" summary="完全平方数-2.24">
+      <created>1614212369434</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1614212369434</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="实现strStr()的失败案例和三种答案方法2.3" />
+    <MESSAGE value="数组拆分2.5" />
+    <MESSAGE value="翻转字符串2.5" />
+    <MESSAGE value="移除元素-双指针2.5" />
+    <MESSAGE value="最大连续1的个数-双指针2.5" />
+    <MESSAGE value="长度最小的子数组-双指针2.5" />
+    <MESSAGE value="杨辉三角-2.6" />
+    <MESSAGE value="反转数组III-2.6" />
+    <MESSAGE value="寻找旋转排序数组中的最小值-二分查找2.7" />
+    <MESSAGE value="删除排序数组中的重复项-双指针2.7" />
+    <MESSAGE value="移动零-双指针2.7" />
+    <MESSAGE value="两数之和II输入有序数组-三种方法2.5" />
+    <MESSAGE value="设计循环队列-数组和node节点2.8" />
+    <MESSAGE value="队列实现2.7" />
+    <MESSAGE value="树的遍历-2.8" />
+    <MESSAGE value="树的遍历-添加Morris方法2.9" />
+    <MESSAGE value="二叉树的最大深度-.9" />
+    <MESSAGE value="对称二叉树-2.10" />
+    <MESSAGE value="路径总和-2.10" />
+    <MESSAGE value="二叉树-2.14" />
+    <MESSAGE value="岛屿数量-2.16" />
+    <MESSAGE value="统一提交-2.24" />
+    <MESSAGE value="补充或修改-2.24" />
+    <MESSAGE value="打开转盘锁-2.24" />
+    <MESSAGE value="完全平方数-2.24" />
+    <option name="LAST_COMMIT_MESSAGE" value="完全平方数-2.24" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="j" />
+        <watch expression="nums2[18]" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

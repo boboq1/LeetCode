@@ -1,0 +1,64 @@
+1.ctrl+D 复制光标所在的行并粘贴到下一行
+2.ctrl+O 快速重写父类方法
+3.ctrl+P 提示方法中的参数
+4.ctrl+Y 删除光标所在的行或选中的行
+5.ctrl+W 递进式的选中代码
+6.ctrl+N 通过类名定位文件
+7.ctrl+B 进入方法或变量的接口或定义处
+8.ctrl+H 查看父类的继承结构
+9.ctrl+F 查找文件
+
+ctrl+alt+u,ctrl+shift+alt+u 查看类继承关系图
+ctrl+shift+v 剪贴板
+methodName().try:
+     try{
+     methodName();
+     }(Exception e){
+     e.printStackTrace();
+     }
+arrays.for:
+        for (int array : arrays) {
+
+               }
+
+arrays.forr:
+        for (int i = arrays.length - 1; i >= 0; i--) {
+
+               }
+
+arrays.fori:
+        for (int i = 0; i < arrays.length; i++) {
+
+                }
+xxx.sout:
+        System.out.println(xxx);
+
+xxx.field:
+before:
+       public class Foo {
+         public Foo(int arg) {
+           arg.field
+         }
+       }
+after:
+       public class Foo {
+           private int foo;
+
+           public Foo(int arg) {
+           foo = arg;
+       }
+
+ctrl + alt +shift + J 列操作，选中需要操作的字符
+alt+4 打开run的控制台
+alt+5 打开debug的控制台
+alt+Q 显示当先类的声明和上下文信息
+ctrl+shift+alt+左右方向键 切换多个字符的左右顺序
+Ctrl + Shift + Enter 自动结束代码，行末自动添加分号
+Ctrl + Shift + + 展开所有代码
+Ctrl + Shift + - 折叠所有代码
+Ctrl + Shift + Z 取消撤销
+Ctrl + Shift + R 根据输入内容替换对应内容，范围为整个项目或指定目录内文件
+Ctrl + Shift + U 对选中的代码进行大/小写轮流转换
+Ctrl + Shift + W 递进式取消选择代码块
+Ctrl + Shift + H 查看方法的继承结构
+Ctrl + Shift + J 自动将下一行合并到当前行末尾
