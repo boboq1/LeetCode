@@ -5,7 +5,7 @@ import java.util.Set;
 import java.util.Stack;
 
 public class Solution {
-    public int evalRPN(String[] tokens) {
+    public int evalRPN1(String[] tokens) {
         if (tokens.length == 0) return 0;
         Stack<Integer> stack = new Stack<>();
         int n = tokens.length;
@@ -39,5 +39,35 @@ public class Solution {
             }
         }
         return stack.pop();
+    }
+    //数组模拟栈
+    public int evalRPN(String[] tokens) {
+        int n = tokens.length;
+        int[] stack = new int[(n + 1) / 2];
+        int index = -1;
+        for (int i = 0; i < n; i++) {
+            switch (tokens[i]) {
+                case "+":
+                    index--;
+                    stack[index] += stack[index + 1];
+                    break;
+                case "-":
+                    index--;
+                    stack[index] -= stack[index + 1];
+                    break;
+                case "*":
+                    index--;
+                    stack[index] *= stack[index + 1];
+                    break;
+                case "/":
+                    index--;
+                    stack[index] /= stack[index + 1];
+                    break;
+                default:
+                    index++;
+                    stack[index] = Integer.parseInt(tokens[i]);
+            }
+        }
+        return stack[0];
     }
 }
